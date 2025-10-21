@@ -1,0 +1,20 @@
+/*
+Theme Name: OH Digital Theme
+Theme URI: https://example.com/oh-digital
+Author: OH Digital
+Author URI: https://example.com
+Description: Dark-mode WooCommerce theme tailored for instant delivery of digital products.
+Version: 0.1.0
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 8.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: oh-digital
+Tags: e-commerce, dark, responsive, wooCommerce, digital-products
+*/
+
+/*
+ * This file only provides the metadata header WordPress expects for theme installation.
+ * All compiled styles are enqueued via \OHTheme\ThemeSetup::enqueue_assets().
+ */
