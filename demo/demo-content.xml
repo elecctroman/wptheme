@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<demo>
+    <info>
+        <title>E-PİN Demo İçerik</title>
+        <description>Örnek sayfalar, ürünler ve kategoriler için başlangıç verisi.</description>
+    </info>
+    <instructions>
+        <step>WordPress içe aktarma aracını kullanarak demo-content.xml dosyasını içe aktarın.</step>
+        <step>Demo ürünler için kod havuzunu license-pool-sample.csv dosyası ile doldurun.</step>
+        <step>Ödeme sağlayıcı ayarlarını test modunda yapılandırın.</step>
+    </instructions>
+</demo>
