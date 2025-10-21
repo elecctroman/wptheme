@@ -1,0 +1,69 @@
+/*
+Theme Name: OH Digital E-PIN
+Description: Dark mode WooCommerce theme scaffold for digital goods.
+Version: 0.1.0
+Author: OH Digital
+*/
+
+:root {
+    color-scheme: dark;
+}
+
+body.oh-theme {
+    background-color: var(--color-primary, #0f172a);
+    color: #f8fafc;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.oh-container {
+    width: min(100%, 1200px);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.oh-header,
+.oh-footer {
+    background: rgba(15, 23, 42, 0.85);
+    backdrop-filter: blur(12px);
+}
+
+.oh-gateway-badge {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    background: rgba(34, 211, 238, 0.12);
+    color: #22d3ee;
+    padding: 0.2rem 0.75rem;
+    margin-inline-end: 0.5rem;
+    font-size: 0.75rem;
+}
+
+.oh-product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.oh-product-card {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    border-radius: 16px;
+    padding: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.oh-product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.45);
+}
+
+.oh-footer__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid rgba(148, 163, 184, 0.2);
+}
