@@ -1,0 +1,274 @@
+.oh-digital-admin {
+    color: #f5f7fa;
+    background: #101321;
+    padding-bottom: 40px;
+}
+
+.oh-digital-admin h1,
+.oh-digital-admin h2 {
+    color: #f5f7fa;
+}
+
+.oh-digital-admin a {
+    color: #77d9ff;
+}
+
+.oh-dashboard__toolbar {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.oh-dashboard__range {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.oh-dashboard__range input[type="date"] {
+    background: #1a1f33;
+    border: 1px solid #29314d;
+    color: #f5f7fa;
+    padding: 4px 8px;
+}
+
+.oh-dashboard__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.oh-card {
+    background: linear-gradient(135deg, rgba(38, 46, 73, 0.9), rgba(23, 29, 49, 0.9));
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 12px 24px rgba(8, 11, 22, 0.45);
+    border: 1px solid rgba(118, 146, 255, 0.1);
+}
+
+.oh-card strong {
+    display: block;
+    font-size: 28px;
+    margin-top: 8px;
+    color: #ffffff;
+}
+
+.oh-card span[data-delta] {
+    display: block;
+    margin-top: 4px;
+    font-size: 13px;
+    color: #9aa6d8;
+}
+
+.oh-card--chart {
+    min-height: 320px;
+}
+
+.oh-dashboard__charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    margin: 32px 0;
+}
+
+.oh-dashboard__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 32px;
+}
+
+.oh-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.oh-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(118, 146, 255, 0.1);
+}
+
+.oh-list li:last-child {
+    border-bottom: 0;
+}
+
+.oh-metrics div {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(118, 146, 255, 0.08);
+}
+
+.oh-metrics div:last-child {
+    border-bottom: 0;
+}
+
+.oh-card--table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.oh-card--table th,
+.oh-card--table td {
+    background: transparent;
+    border-color: rgba(118, 146, 255, 0.12);
+}
+
+.oh-orders__filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 20px;
+    background: rgba(23, 29, 49, 0.7);
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid rgba(118, 146, 255, 0.1);
+}
+
+.oh-orders__filters .oh-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.oh-orders__filters .oh-field select,
+.oh-orders__filters .oh-field input[type="date"] {
+    min-width: 180px;
+    background: #1a1f33;
+    border: 1px solid #29314d;
+    color: #f5f7fa;
+    padding: 6px 8px;
+    border-radius: 6px;
+}
+
+.oh-orders__filters .oh-field--actions {
+    justify-content: flex-end;
+}
+
+.oh-orders__table .tablenav {
+    margin-top: 12px;
+}
+
+.oh-orders__table .tablenav .tablenav-pages {
+    color: #c9d4ff;
+}
+
+.oh-notice__list {
+    margin: 8px 0 0;
+    padding-left: 18px;
+}
+
+.oh-status {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.oh-status--pending {
+    background: rgba(255, 211, 105, 0.18);
+    color: #ffd369;
+}
+
+.oh-status--completed {
+    background: rgba(107, 227, 178, 0.2);
+    color: #6be3b2;
+}
+
+.oh-status--partial {
+    background: rgba(255, 159, 104, 0.2);
+    color: #ff9f68;
+}
+
+.oh-status--failed {
+    background: rgba(255, 107, 107, 0.2);
+    color: #ff6b6b;
+}
+
+.oh-orders__actions .button {
+    margin-right: 6px;
+}
+
+.oh-orders__actions .button:last-child {
+    margin-right: 0;
+}
+
+.oh-digital-admin input[type="file"],
+.oh-digital-admin input[type="text"],
+.oh-digital-admin input[type="number"],
+.oh-digital-admin select {
+    background: #1a1f33;
+    border: 1px solid #29314d;
+    color: #f5f7fa;
+    border-radius: 6px;
+}
+
+.oh-digital-admin .button,
+.oh-digital-admin .button.button-primary,
+.oh-digital-admin .button.button-secondary {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+.oh-digital-admin .button.button-primary {
+    background: linear-gradient(90deg, #5b8dff, #9c7bff);
+    color: #fff;
+}
+
+.oh-digital-admin .button.button-secondary {
+    background: rgba(118, 146, 255, 0.15);
+    color: #d3dcff;
+}
+
+[data-oh-dashboard] .button.is-active,
+[data-oh-reports] .button.is-active {
+    background: linear-gradient(90deg, #5b8dff, #9c7bff);
+    color: #fff;
+}
+
+.oh-card--form form label {
+    display: block;
+    margin-bottom: 4px;
+    color: #d3dcff;
+}
+
+.oh-card--form form input,
+.oh-card--form form select {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 8px;
+}
+
+.oh-card--form form button {
+    margin-top: 8px;
+}
+
+[data-code-update] select {
+    background: #1a1f33;
+    border: 1px solid #29314d;
+    color: #f5f7fa;
+    border-radius: 6px;
+    margin-right: 6px;
+}
+
+.wp-list-table.widefat.striped tbody tr:nth-child(even) td {
+    background: rgba(23, 29, 49, 0.6);
+}
+
+.wp-list-table.widefat.striped tbody tr:nth-child(odd) td {
+    background: rgba(23, 29, 49, 0.8);
+}
+
+.oh-digital-admin table.widefat thead th {
+    background: rgba(118, 146, 255, 0.1);
+    color: #f5f7fa;
+}
+
+.notice.oh-dashboard-notice {
+    border-left-color: #9c7bff;
+}
